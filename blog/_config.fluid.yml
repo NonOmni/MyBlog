@@ -91,7 +91,7 @@ fun_features:
 
     # 游标字符
     # Cursor character
-    cursorChar: "✨"
+    cursorChar: "☀"
 
     # 是否循环播放效果
     # If true, loop animation
@@ -388,7 +388,7 @@ banner:
 # 向下滚动的箭头
 # Scroll down arrow
 scroll_down_arrow:
-  enable: true
+  enable: false
 
   # 头图高度不小于指定比例，才显示箭头
   # Only the height of the banner image is greater than the ratio, the arrow is displayed
@@ -724,11 +724,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: utterances
 
 
 #---------------------------
@@ -744,9 +744,10 @@ post:
 # Based on GitHub Issues
 # See: https://utteranc.es
 utterances:
-  repo:
-  issue_term: pathname
-  label: utterances
+  repo: yangminggang/yangminggang.github.io
+  issue_term: url
+  label: #
+  crossorigin: anonymous
   theme: github-light
   theme_dark: github-dark
 
