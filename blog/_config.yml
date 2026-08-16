@@ -108,6 +108,6 @@ theme: fluid #landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repo: https://github.com/NonOmni/skills-github-pages.git
+  type: git
+  repo: https://github.com/NonOmni/NonOmni.github.io.git
   branch: main
