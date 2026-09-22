@@ -350,6 +350,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "resume", link: "/resume/", icon: "iconfont icon-addrcard", name: "简历" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
@@ -966,7 +967,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/deauft_pic.jpg
+  banner_img: /img/v2-2b073b5345eed34d722825ff43671da5_r.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
